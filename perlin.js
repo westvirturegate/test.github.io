@@ -48,7 +48,7 @@ function draw(){
     }
     yoff += inc;
 
-    zoff += 0.0005;
+    zoff += 0.00005;
   }
   for (var i = 0; i < particle.length; i ++){
     particle[i].follow(flowfield);
@@ -60,4 +60,3 @@ function draw(){
 
 
 }
-
